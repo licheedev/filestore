@@ -56,4 +56,4 @@ rm init-goagent-php.sh
 service httpd restart
 ```
 出处：[**Thinking in code**](http://www.cnblogs.com/cryinstall/archive/2011/09/25/2189900.html)
-goagent配置见：[**FAQ 11**](https://github.com/goagent/goagent/blob/wiki/FAQ.md) 和 [**Configurations**](https://github.com/goagent/goagent/blob/wiki/ConfigIntroduce.md.ini)
+goagent配置见：[**FAQ 13**](https://github.com/goagent/goagent/blob/wiki/FAQ.md) 和 [**Configurations**](https://github.com/goagent/goagent/blob/wiki/ConfigIntroduce.md.ini)
