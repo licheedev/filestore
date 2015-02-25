@@ -66,10 +66,10 @@ function centos5(){
 	
 	arch=`uname -m`
 	
-	wget http://www.5yun.org/Soft/linux/Openvz-vpn/dkms-2.0.17.5-1.noarch.rpm
-	wget http://www.5yun.org/Soft/linux/Openvz-vpn/kernel_ppp_mppe-1.0.2-3dkms.noarch.rpm
-	wget http://www.5yun.org/Soft/linux/Openvz-vpn/pptpd-1.3.4-1.rhel5.1.i386.rpm
-	wget http://www.5yun.org/Soft/linux/Openvz-vpn/ppp-2.4.4-9.0.rhel5.i386.rpm
+	wget http://linux.dell.com/dkms/permalink/dkms-2.0.17.5-1.noarch.rpm
+	wget https://acelnmp.googlecode.com/files/kernel_ppp_mppe-1.0.2-3dkms.noarch.rpm
+	wget https://acelnmp.googlecode.com/files/pptpd-1.3.4-1.rhel5.1.i386.rpm
+	wget https://fastlnmp.googlecode.com/files/ppp-2.4.4-9.0.rhel5.i386.rpm
 
 	installVPN5
 	setting
@@ -88,10 +88,10 @@ function centos6(){
 	
 	arch=`uname -m`
 	
-	wget http://www.5yun.org/Soft/linux/Openvz-vpndkms-2.0.17.5-1.noarch.rpm
-	wget http://www.5yun.org/Soft/linux/Openvz-vpn/kernel_ppp_mppe-1.0.2-3dkms.noarch.rpm
-	wget http://www.5yun.org/Soft/linux/Openvz-vpn/pptpd-1.3.4-2.el6.$arch.rpm
-	wget http://www.5yun.org/Soft/linux/Openvz-vpn/ppp-2.4.5-17.0.rhel6.$arch.rpm
+	wget http://linux.dell.com/dkms/permalink/dkms-2.0.17.5-1.noarch.rpm
+	wget https://acelnmp.googlecode.com/files/kernel_ppp_mppe-1.0.2-3dkms.noarch.rpm
+	wget https://qiaodahai.googlecode.com/files/pptpd-1.3.4-2.el6.i686.rpm
+	wget https://logdns.googlecode.com/files/ppp-2.4.5-17.0.rhel6.i686.rpm
 
 	installVPN6
 	setting
