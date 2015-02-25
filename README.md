@@ -2,7 +2,18 @@
 
 ### [使用putty远程管理vps](http://www.tennfy.com/2022.html)
 
-### 配置shadowsocks-libev
+### 修改SSH端口
+```bash
+# 修改文件
+vim /etc/ssh/sshd_config
+# 在文件的最后面，修改Port的值，然后 重启ssh服务
+# centos
+service sshd restart
+# debian
+service ssh restart 
+```
+
+### CentOS配置shadowsocks-libev
 ```bash
 wget --no-check-certificate https://raw.githubusercontent.com/licheetec/filestore/master/shadowsocks-libev.sh
 chmod +x shadowsocks-libev.sh
@@ -10,7 +21,7 @@ chmod +x shadowsocks-libev.sh
 ```
 出处：[**秋水逸冰**](http://teddysun.com/357.html/comment-page-6)
 
-### 配置V*N
+### CentOS配置V*N
 ```bash
 wget --no-check-certificate https://raw.githubusercontent.com/licheetec/filestore/master/openvps_vpn_centos-5-6.sh
 chmod a+x openvps_vpn_centos-5-6.sh
@@ -18,7 +29,7 @@ bash openvps_vpn_centos-5-6.sh
 ```
 出处：[**Zuike 技术博客**](http://www.cnblogs.com/zuike/articles/4167182.html)
 
-### 配置goagent-php
+### CentOS配置goagent-php
 ```bash
 # 升级
 yum update
