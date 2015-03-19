@@ -15,7 +15,7 @@ service ssh restart
 
 ### CentOS配置shadowsocks-libev
 ```bash
-wget --no-check-certificate https://raw.githubusercontent.com/licheetec/filestore/master/shadowsocks-libev.sh
+wget --no-check-certificate https://raw.githubusercontent.com/licheetec/filestore/master/fq/shadowsocks-libev.sh
 chmod +x shadowsocks-libev.sh
 ./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
 ```
@@ -23,7 +23,7 @@ chmod +x shadowsocks-libev.sh
 
 ### CentOS配置V*N
 ```bash
-wget --no-check-certificate https://raw.githubusercontent.com/licheetec/filestore/master/openvps_vpn_centos-5-6.sh
+wget --no-check-certificate https://raw.githubusercontent.com/licheetec/filestore/master/fq/openvps_vpn_centos-5-6.sh
 chmod a+x openvps_vpn_centos-5-6.sh
 bash openvps_vpn_centos-5-6.sh
 ```
@@ -47,7 +47,7 @@ yum install mod_ssl
 
 # 添加goagent-php文件
 cd /var/www/html/
-wget --no-check-certificate https://raw.githubusercontent.com/licheetec/filestore/master/init-goagent-php.sh
+wget --no-check-certificate https://raw.githubusercontent.com/licheetec/filestore/master/fq/init-goagent-php.sh
 chmod a+x init-goagent-php.sh
 bash init-goagent-php.sh
 rm init-goagent-php.sh
