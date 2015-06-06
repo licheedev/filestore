@@ -1,11 +1,6 @@
-package com.example.john.touchdemo;
-
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-/**
- * Created by John on 2015/6/6.
- */
 public class LogPlus {
 
     private static final int CURRENT_LOG_LEVEL = Log.VERBOSE;
