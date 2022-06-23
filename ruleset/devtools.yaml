@@ -1,0 +1,10 @@
+payload:
+  - PROCESS-NAME,java.exe
+  - PROCESS-NAME,java
+  - PROCESS-NAME,studio64.exe
+  - PROCESS-NAME,idea64.exe
+  - PROCESS-NAME,Code.exe
+  - PROCESS-NAME,git.exe
+  - PROCESS-NAME,ssh.exe
+  - PROCESS-NAME,pycharm64.exe
+  - PROCESS-NAME,WebStorm64.exe
